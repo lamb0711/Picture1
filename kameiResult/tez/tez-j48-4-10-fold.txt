@@ -1,0 +1,18 @@
+@attribute isBuggy {clean,buggy}
+Type  Nom  Int Real     Missing      Unique  Dist  C[0] C[1]
+ Nom 100%   0%   0%     0 /  0%     0 /  0%     2  6628 1091
+
+Correctly Classified Instances       26390               85.4709 %
+Incorrectly Classified Instances      4486               14.5291 %
+Kappa statistic                          0.2622
+Mean absolute error                      0.1952
+Root mean squared error                  0.3465
+Relative absolute error                 80.3933 %
+Root relative squared error             99.4486 %
+Total Number of Instances            30876     
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.953    0.740    0.887      0.953    0.918      0.277    0.715     0.919     clean
+                 0.260    0.047    0.474      0.260    0.336      0.277    0.715     0.334     buggy
+Weighted Avg.    0.855    0.642    0.828      0.855    0.836      0.277    0.715     0.836     
